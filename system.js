@@ -22,14 +22,14 @@ console.log( args );
 
 // Log out key/value environment variables (PATH, SHELL, etc.).
 for ( var key in env ) {
-    console.log( key );
-    console.log( env[ key ] );
+	console.log( key );
+	console.log( env[ key ] );
 }
 
 // Log out key/value hardware/device variables (architecture, name, etc.).
 for ( var key in os ) {
-    console.log( key );
-    console.log( os[ key ] );
+	console.log( key );
+	console.log( os[ key ] );
 }
 
 // Log out process ID.
